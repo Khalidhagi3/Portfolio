@@ -1,0 +1,104 @@
+body{
+  background-color: rgb(0, 0, 0);
+}
+.immge {
+  width: 100%;
+  max-width: 1920px;
+  height: 500px;
+}
+.feature_work h2{
+  margin: auto;
+  position: absolute;
+  left: 100px;
+  color: white;
+}
+.feature_work p{
+  color: white;
+  padding: auto;
+  position: absolute;
+  left: 600px;
+  width: 850px;
+  font-weight: bold;
+}
+.motivation h2{
+  padding: 100px;
+  margin: auto ;
+  position: absolute;
+  color: white;
+}
+
+.motivation p{
+  padding: 100px;
+  margin: auto ;
+  position: absolute;
+  left: 500px;
+  color: white;
+  width: 850px;
+  font-weight: bold;
+}
+.image1{
+  padding: auto;
+  margin: auto;
+  position: absolute;
+  top: 800px;
+  z-index: -1;
+  border-radius: 10%;
+
+}
+.image2{
+  padding: auto;
+  margin: auto;
+  position: absolute;
+  z-index: -1;
+  top: 800px;
+  left: 700px;
+  width: 50%;
+  height: 400px;
+  border-radius: 10%;
+}
+.contact{ 
+  color: white;
+  padding: auto;
+  position: absolute;
+  left: 60px;
+  top: 1300px;
+  width: 200px;
+  font-weight: bold;
+}
+.sub{
+  align-items: center;
+  position: absolute;
+  left: 550px;
+  
+}
+.text{
+  position: absolute;
+  left: 590px;
+  color: white;
+  z-index: 1;
+  top: -50px;
+  width: 300px;
+  align-items: center;
+  
+}
+.sub .inwards{
+  color: white;
+  background-color: rgb(45, 39, 39);
+  width: 250px;
+}
+.subway{
+  align-items: center;
+  position: absolute;
+  top: 160px;
+  left: 550px;
+  width: 250px;
+  background-color: gray;
+  border: 0cap;
+  border-radius: 10px;
+}
+.image2:hover{
+  transform: translatey(-5px)
+}
+.image1:hover{
+  transform: translatey(-5px)
+}
